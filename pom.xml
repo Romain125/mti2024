@@ -11,6 +11,8 @@
     <modules>
         <module>spring-web</module>
         <module>spring-bases</module>
+        <module>spring-data-jpa</module>
+        <module>spring-security</module>
     </modules>
 
     <properties>
