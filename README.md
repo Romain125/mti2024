@@ -47,7 +47,17 @@ Les voyageurs : Qui s'inscrivent sur les différents vols grâce à un identifia
  
 ------
 
- 
+## Utilisateurs
+
+Voici la liste des utilisateurs devant avoir accès à l'application.
+
+| Username                    | Password        | Role            |
+|-----------------------------|-----------------|-----------------|
+| mrbricolage@spacyx.com      | 33raptor        | Technicien      |
+| voyagevoyage@spaceyx.com    | ihaveaplan      | Planificateur   |
+| romain@mail.com             | çavaaller       | Voyageur        |
+
+------ 
 
 ## Technologies
 L'application doit être faite avec les notions vues en cours. Cela comprend :
@@ -66,7 +76,7 @@ Voici la liste des éléments à rendre afin d'être corrigé :
 - Pensez à ajouter votre professeur en lecture sur le repo...ça serait dommage pour vous qu'il ne puisse pas clôner votre projet à heure dite...
 - La liste des personnes ayant participé à ce projet doit se trouver à l'endroit approprié dans le pom.xml
 - Un *.jar *auto-exéutable* (type fat-jar) dans un dossier "jar" à la racine de votre projet. Le jar doit pouvoir s'exécuter sans autre configuration externe.
-- Un jeu de données pré-existant dès le démarrage de l'application
+- Un jeu de données pré-existant dès le démarrage de l'application, permettant de tester un maximum de fonctionnalités de l'application
 - L'adresse de votre swagger-ui (ou à défaut, une documentation d'API explicite pour tester votre projet)
 - Indiquez également dans le fichier readme.md à la racine de votre projet les choses à savoir qui pourraient intéresser le correcteur
 
