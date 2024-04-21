@@ -32,7 +32,7 @@ Les planificateurs, qui peuvent créer, lire, modifier et supprimer les vols.
   - Le status est
       - PASSED si la date du vol est passée
       - OK si la navette a correctement été révisée
-      - WAITING_FOR_GEARCHECK si la navette n'a pas effectué de révision depuis son dernier vol (ou estime qu'une navette nouvellement créée doit être révisée quand même).
+      - WAITING_FOR_GEARCHECK si la navette n'a pas effectué de révision depuis son dernier vol (on estime qu'une navette nouvellement créée doit être révisée quand même).
   - Pas plus d'un vol spatial par mois (toute navette confondue) ! C'est interdit par la FAA (federal aviation administration)
   - La modification ou la suppression d'un vol doit s'accompagner d'un mail (bouchonné à l'aide d'un System.out.println) aux usagers de ce vol expliquant pourquoi le vol a été annulé. Il n'est pas nécessaire de conserver un historique dans vols annulés.
 
