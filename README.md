@@ -14,12 +14,12 @@ Il existe plusieurs rôles dans l'aplication, chacuns ayant accès à leurs fonc
 ## Techniciens
 Les techniciens, qui sont capables de mettre à disposition du système des navettes et de révisions techniques.
   - Chaque navette possède :
-                - Un nom
-                - Une capacité de voyageur entre 3 et 5
-                - Un status (OK, OBSOLETE)
+    - Un nom
+    - Une capacité de voyageur entre 3 et 5
+    - Un status (OK, OBSOLETE)
   - Chaque révision est prévue à
-                - Une date précise
-                - Pour une navette précise
+    - Une date précise
+    - Pour une navette précise
 
 Les techniciens peuvent :
 - Afficher, créer, supprimer des navettes. Modifier le status d'une navette.
